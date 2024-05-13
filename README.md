@@ -1,6 +1,8 @@
-# Yprey
+<h1 align="center">
+  YRprey
+</h1>
 
-![yrprey](https://i.imgur.com/zHoDJG9_d.webp?maxwidth=760&fidelity=grand)
+[![Yrprey](https://raw.githubusercontent.com/vagnermengali/yrprey-frontend/main/public/background-banner.webp)](https://yrprey.com/)
 
 **Backend created by [Fernando Mengali](https://www.linkedin.com/in/fernando-mengali-273504142/)**
 
