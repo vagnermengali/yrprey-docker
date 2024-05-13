@@ -8,25 +8,26 @@
 
 **Frontend created by [Vagner Mengali](https://www.linkedin.com/in/vagnermengali/)**
 
-**The Vulnerable API** *(Based on OpenAPI 3)*
+# Documentation
 
+## **The Vulnerable API** *(Based on OpenAPI 3)*
 
 Yprey is an API framework with vulnerabilities from the OWASP TOP 10 API 2019 and 2023. The framework was developed for teaching and learning details in Pentest (penetration testing) and Application Security. In the context of Offensive Security, vulnerabilities contained in APIs can be identified, exploited and compromised. For application security professionals and specifics, the framework provides an in-depth understanding of code-level vulnerabilities. Currently, Yrprey is one of the frameworks with the highest number of vulnerabilities in the world, making it valuable for educational, learning and teaching purposes in the Information Security area. For more information about the vulnerabilities, we recommend exploring the details available at [yrprey.com](https://yrprey.com).
 
-#### Features
+## Features
  - Based on OWASP's top 10 vulnerabilities for APIs.
  - OpenAPI3 specs and Postman collection included.
 
 Initially, an unregistered user has access to minimal information about the framework such as the Landing Page and the Blog. When registering, the user can log in, thus obtaining a token that will be used to purchase Ethereum cryptocurrency. Features include buying Ethereum, sending messages, viewing news, viewing shopping list, etc. The framework was built based on vulnerabilities and is not recommended to be used for business and service sales.
 
-#### List of Vulnerabilities
+## List of Vulnerabilities
 
 In this section, we have a comparison of the vulnerabilities present in the framework with the routes and a comparison between the OWASP TOP 10 API of 2019 and 2023.
 This table makes it easier to understand how to exploit vulnerabilities in each systemic function.
 In the last two columns we have a parenthesis and the scenario associated with the OWASP TOP 10 API of the last two years, facilitating the understanding of the theory described on the page https://owasp.org/API-Security/.
 After understanding the scenario and the vulnerable route, the process of identifying and exploiting vulnerabilities becomes easier. If you are an Application Security professional, knowing the scenario and routes of endpoints makes the process of identifying and correcting vulnerabilities easier with manual Code Review Security techniques or automated SAST, SCA and DAST analyses
 
-Complete table with endpoint routes, vulnerability details and a comparison between OWASP TOP 10 API 2019 and 2023 vulnerabilities:
+**Complete table with endpoint routes, vulnerability details and a comparison between OWASP TOP 10 API 2019 and 2023 vulnerabilities:**
 
 | **Qtde**| **Action**|  **Path**    |      **Details**               |          OWASP 2019                                |            OWASP 2023        |
 |:-------:|:---------:|:------------:|:------------------------------:|:--------------------------------------------------:|:-----------------------------|
@@ -65,7 +66,6 @@ You can created one local servers:
 ## docker application
 docker-compose -f .docker/dev/app.yaml -p yrprey  up -d
 ```
-
 
 ### Configuring the database
 
@@ -106,10 +106,14 @@ pwd: 1234
 
 To access the backend go to `{your host}:82`.
 
-
-
 ## Reporting Vulnerabilities
 
 Please, avoid taking this action and requesting a CVE!
 
 The application intentionally has some vulnerabilities, most of them are known and are treated as lessons learned. Others, in turn, are more "hidden" and can be discovered on your own. If you have a genuine desire to demonstrate your skills in finding these extra elements, we suggest you share your experience on a blog or create a video. There are certainly people interested in learning about these nuances and how you identified them. By sending us the link, we may even consider including it in our references.
+
+## Contribution
+
+Contributions are welcome! Feel free to open a PR or report issues.
+
+If this project has been helpful to you, consider giving it a star (⭐) on the repository to support development.
