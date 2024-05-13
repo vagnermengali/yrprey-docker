@@ -4,9 +4,9 @@
 
 [![Yrprey](https://raw.githubusercontent.com/vagnermengali/yrprey-frontend/main/public/background-banner.webp)](https://yrprey.com/)
 
-**Backend created by [Fernando Mengali](https://www.linkedin.com/in/fernando-mengali-273504142/)**
+**Front-end created by [Vagner Mengali](https://www.linkedin.com/in/vagnermengali/)**
 
-**Frontend created by [Vagner Mengali](https://www.linkedin.com/in/vagnermengali/)**
+**Back-end created by [Fernando Mengali](https://www.linkedin.com/in/fernando-mengali-273504142/)**
 
 # Documentation
 
