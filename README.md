@@ -56,11 +56,11 @@ After understanding the scenario and the vulnerable route, the process of identi
 
 For more details you can use a service like the [swagger editor](https://editor.swagger.io).
 
+## How to Create the Docker Environment:
 
-## How to create the environment Docker:
-You can created one local servers:
+You can set up a local server using Docker with the following steps:
 
-### Starting the project
+### Starting the Project
 
 ```sh
 ## docker application
@@ -84,12 +84,11 @@ docker-compose -f .docker/dev/app.yaml -p yrprey  up -d
 
 ### Adjusting .env file
 
-Check if your docker uses localhost as a base, if it doesn't use server localhost, adjust the variable `NEXT_PUBLIC_API` in *.env*.
-
+Check if your Docker uses localhost as a base. If it doesn't use localhost as the server, adjust the `NEXT_PUBLIC_API` variable in the *.env* file.
 
 ### Accessing the frontend
 
-To access the frontend go to `{your host}:3005`.
+To access the frontend, go to `{your host}:3005`.
 
 Login to validate credentials.
 
